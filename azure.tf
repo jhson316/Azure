@@ -25,7 +25,7 @@ resource "azurerm_resource_group" "rg" {
 }
 
 resource "azurerm_resource_group" "rg2" {
-  name     = "TestGroup"
+  name     = "AzureTest"
   location = var.location
 }
 
